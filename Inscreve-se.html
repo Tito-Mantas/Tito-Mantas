@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="Inscreve-se.css" media="">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="box">
+    <form action="">
+        <fieldset>
+            <legend><b>Formulário do Cliente</b></legend>
+            <br>
+            <div class="inputbox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Nome</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="nome" id="Sobre Nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Sobre Nome</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="email" name="Email" id="Email" class="inputUser" required>
+                <label for="Email" class="labelInput">Email</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+            <input type="tel" name="Telefone" id="Telefone" class="inputUser" required>
+            <label for="Telefone" class="labelInput">Telefone</label>
+            </div>
+            <br>
+            <P>Sexo:</P>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="Masculino">Masculino</label>
+                <br>
+                <input type="radio" id="Femenino" name="genero" value="Femenino" required>
+                <label for="Femenino">Femenino</label>
+                <br>
+                <input type="radio" id="outros" name="genero" value="outros" required>
+                <label for="outros">outros</label>
+                <br><br>
+                <label for="data_nascimento">Data de Nascimnto:</label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="Cidade" id="Cidade" class="inputUser" required>
+                <label for="Cidade" class="labelInput">Cidade</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                <label for="bairro" class="labelInput">Bairro</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                <label for="endereco" class="labelInput">Endereço</label>
+            </div>
+            <br><br>
+        <div class="inputbox">
+            <label for="formação"><strong>Area de Formação</strong></label>
+            <select id="formação">
+            <option selected disabled value="">Seleciona</option>
+            <Option>Tecnologia de Informação</Option>
+            <option>Gestão</option>
+            <option>Culinária</option>
+            <option>Pastelaria</option>
+        </select>
+        </div>
+        <fieldset class="inputbox">
+        <div id="inputbox">
+            <label><strong>Seleciona o Curso:</strong></label><br><br>
+            <input type="checkbox" id="Técnologias de Informação" name="Informática" value="CSS">
+            <label for="Técnologia de Informação">HTML</label>
+            <input type="checkbox" id="Técnologias de Informação2" name="Informática2" value="HTML">
+            <label for="Técnologia de Informação">Redes</label>
+            <input type="checkbox" id="Técnologias de Informação3" name="Informática3" value="Redes">
+            <label for="Técnologia de Informação">Excel</label>
+            <input type="checkbox" id="Técnologias de Informação4" name="Informática4" value="Excel">
+            <label for="Técnologia de Informação">Informatica</label>
+            <input type="checkbox" id="Técnologias de Informação5" name="Informática5" value="Informatica">
+            <label for="Técnologia de Informação">Web Disigner</label>
+            <input type="checkbox" id="Técnologias de Informação6" name="Informática6" value="Web Disigner">
+            <label for="Técnologia de Informação">Segurança Informatica</label>
+            <input type="checkbox" id="Técnologias de Informação7" name="Informática7" value="Segurança Informatica">
+            <label for="Técnologia de Informação">Pastelaria</label>
+            <input type="checkbox" id="Técnologias de Informação8" name="Informática8" value="Pastelaria">
+            <label for="Técnologia de Informação">Gestão Empresarial</label>
+            <input type="checkbox" id="Técnologias de Informação9" name="Informática9" value="Gestão Empresarial">
+        </div>
+        </fieldset>
+        <div class="inputbox">
+         <br>
+         <label><strong>Faça uma breve apresentação</strong></label><br><br>
+         <textarea rows="6" id="comentario" name="comentario" ></textarea>
+        </div>
+        <input type="submit" name="submit" id="submit">
+    </fieldset>
+    </form>
+</div>
+</body>
+</html>
